@@ -1,0 +1,345 @@
+/*nav_bar , kirish */
+* {
+	margin: 0;
+	padding: 0;
+}
+.parent {
+	width: 100%;
+	height: 100vh;
+	background-color: black;
+}
+nav {
+	margin: auto;
+	width: 100%;
+	background-color: transparent;
+	transition: .4s ease-out;
+	height: 75px;
+}
+ul {
+	height: 75px;
+	display:flex;
+	align-items: center !important;
+	list-style: none;
+	width: 100%;
+	justify-content: center;
+}
+li {
+	margin: 0px 50px;
+}
+.common {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 3 !important;
+}
+.intro {
+	max-height: 100vh;
+	width: 100%;
+	overflow: hidden;
+}
+.intro::after {
+	content: '';
+	top: 0;
+	left: 0;
+	display: block;
+	background-color: rgba(0, 0, 0, 0.8);
+	z-index: 2;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.video {
+	position: relative;
+	padding-bottom: 56.25%;
+}
+.video-information {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	position: relative;
+	z-index: 1;
+}
+a {
+	text-decoration: none;
+}
+.a {
+	margin-left: 520px;
+}
+.ok {
+	margin: 0px 0px;
+}
+.hello {
+	margin-right: 300px;
+}
+.bye {
+	color: rgb(200, 200, 0);
+	margin-left: -100px;
+}
+svg {
+	margin-top: -0px;
+}
+nav ul li a {
+	transition: .4s ease-out;
+	font-weight: 300;
+	color: white !important;
+	position: absolute;
+	padding: 3px;
+}
+nav ul li {
+	padding-top: 20px;
+	font-size: 15px ;
+}	
+
+nav:hover {
+	transition: .4s ease-out;
+	color: black;
+	background-color: rgb(255, 255, 255);
+}
+nav:hover a {
+	transition: .4s ease-out;
+	color: black!important;
+}
+nav:hover .rolex-nav-bar1 {
+	display: none;
+}
+nav:hover .rolex-nav-bar2 {
+	display: block !important;
+}
+nav ul li :nth-child(1) {
+	margin-left:auto !important;
+}
+
+
+
+ /*@keyframes rolex {
+	0% {
+		background-image: url(https://images.pexels.com/photos/364822/rolex-watch-time-luxury-364822.jpeg?cs=srgb&dl=pexels-pixabay-364822.jpg&fm=jpg&_gl=1*kzfmr8*_ga*NTI5Nzg4MjYzLjE2NjgyNzM5NjA.*_ga_8JE65Q40S6*MTY2ODI3Mzk3Mi4xLjEuMTY2ODI3Mzk5MC4wLjAuMA..);
+	}
+	20% {
+		background-image: url(https://images.pexels.com/photos/9982008/pexels-photo-9982008.jpeg?cs=srgb&dl=pexels-antony-trivet-9982008.jpg&fm=jpg&_gl=1*1udsasw*_ga*NTI5Nzg4MjYzLjE2NjgyNzM5NjA.*_ga_8JE65Q40S6*MTY2ODI3Mzk3Mi4xLjEuMTY2ODI3NDA0My4wLjAuMA..);
+	}
+	40% {
+		background-image: url(https://images.pexels.com/photos/9978981/pexels-photo-9978981.jpeg?cs=srgb&dl=pexels-antony-trivet-9978981.jpg&fm=jpg&_gl=1*j7e1fp*_ga*NTI5Nzg4MjYzLjE2NjgyNzM5NjA.*_ga_8JE65Q40S6*MTY2ODI3Mzk3Mi4xLjEuMTY2ODI3NDA1Ny4wLjAuMA..);
+	}
+	60% {
+		background-image: url(https://images.pexels.com/photos/9981987/pexels-photo-9981987.jpeg?cs=srgb&dl=pexels-antony-trivet-9981987.jpg&fm=jpg&_gl=1*1b74hbb*_ga*NTI5Nzg4MjYzLjE2NjgyNzM5NjA.*_ga_8JE65Q40S6*MTY2ODI3Mzk3Mi4xLjEuMTY2ODI3NDA3OS4wLjAuMA..);
+	}
+	80% {
+		background-image: url(https://images.pexels.com/photos/9982056/pexels-photo-9982056.jpeg?cs=srgb&dl=pexels-antony-trivet-9982056.jpg&fm=jpg&_gl=1*1w3dd8m*_ga*NTI5Nzg4MjYzLjE2NjgyNzM5NjA.*_ga_8JE65Q40S6*MTY2ODI3Mzk3Mi4xLjEuMTY2ODI3NDA5Ny4wLjAuMA..);
+	}
+	100% {
+		background-image: url(https://images.pexels.com/photos/9878605/pexels-photo-9878605.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+	}
+}*/
+
+
+/* 2-block */
+.text {	
+	margin-top: 15%;
+	text-align: center;
+	color: #ffffff;
+	font-weight:100 ;
+	font-size: 50px;
+}
+#text {
+	font-weight:100 ;
+	text-align: center;
+	color: #ffffff !important;
+	font-size: 50px;
+}
+.malumot h2 {
+	opacity: .8;
+	font-size: 50px;
+	color: #7b5623c7;
+}
+.malumot p {
+	margin-top: 10px;
+	font-size: 15px;
+}
+.Asos{
+	position: relative;
+	margin-top: 100px !important;
+	width: 80%;
+	margin: auto;
+	place-items: center !important;
+}
+.menu {
+	margin-top: 50px;
+	position: relative;
+	display: flex;
+	place-items: center !important;	
+} 
+.knopka {
+	display: flex;
+	place-items: center
+}
+.rasmlar{
+	display: flex;
+	align-items: center;
+}
+#AA {
+	margin-right: -10px;
+	border: none !important;
+}
+.d {
+	width: 10;
+	height: 65.27;
+	margin: 0 !important;
+}
+#ab {
+	color: rgba(6, 75, 20, 0.851) !important;
+	margin: 10px;
+	border: none;
+	padding: 0 !important;
+}
+#ab:hover {
+	color: rgba(88, 97, 90, 0.851) !important;
+}
+.vaaa {
+	color: rgba(6, 75, 20, 0.851) !important;
+	border: 1px solid rgba(19, 185, 52, 0.964);
+	padding: 10px 20px;
+	margin: 10px;
+	border-radius: 50px;
+	background-color: transparent !important;
+	color: black;
+	transition: .4s ease-out;
+}
+.vaaa:hover {
+	transition: .4s ease-out;
+	color: #ffffff !important;
+	background-color: rgba(6, 75, 20, 0.85) !important; 
+}
+
+
+/*mini 3-block */
+.variantlar {
+	margin-top: 10px;
+	cursor: pointer;
+	display: flex;
+	width: 100%;
+	height: 60vh;
+	justify-content: space-around;
+}
+.rasm1 {
+	margin-right: -7%;
+	width: 26%;
+	height: 60vh;
+	border-radius: 40px ;
+
+}
+.surat {
+	width: 100%;
+	height: 60vh;
+	border-radius: 40px;
+}
+
+
+
+/*Rolex moments 4-block */
+.farmers {
+	height: 90vh;
+	margin: 100px 0px;
+	justify-content: start;
+	align-items: flex-start;
+	background-color: #001d3d;
+	cursor: pointer;
+}
+#salom:hover a {
+	transition: .3s ease-out;
+	background-color: white !important;
+	color: rgb(24, 103, 41) !important;
+}
+#salom {
+
+	background-color: rgb(72, 11, 11);
+	padding-left: 154px;
+	padding-top: 151px;
+	margin-bottom: 45px;
+	padding-bottom: 255px;
+}
+#salom  p,h1 {
+	font-size: 64px;
+	margin-top: 10px;	
+	color: white !important;
+}
+#salom h1 {
+	margin-top: -14px !important;
+}
+#salom a {
+	transition: .3s ease-out;
+	border-radius: 20px;
+	padding: 10px 15px;
+	border: 1px solid white;
+	place-items: center !important;
+	margin-top: 10px;
+	color: white !important;
+}
+
+/*dengiz 5-block */
+#bye {
+	margin: auto;
+	background-image: url(https://content.rolex.com/dam/homepage/grid/watches/new-deepsea-challenge/homepage-new-watches-2022-new-deepsea-challenge-m126067-0001-2209jva-002.jpg?imwidth=1350);
+	width: 78%;
+	height: 57vh;
+	background-repeat: no-repeat;
+	background-size: cover	;
+	background-position: center;
+	border-radius: 20px;
+}
+#sa {
+	font-size: 16px;
+	margin: 35px 168px;
+}
+#text {
+	font-size: 20px;
+	color: #000000;
+}
+
+
+
+.contanier {
+	width: 100%;
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+}
+.bla {
+	width: 50%;
+	height: 80vh;
+	background-position: center;
+	background-image: url(https://images.pexels.com/photos/209977/pexels-photo-209977.jpeg?auto=compress&cs=tinysrgb&w=600);
+	background-repeat: no-repeat;
+	border-radius: 30px;
+	background-size: cover;
+	margin-right: 5px;
+}
+.alb {	
+	width: 50%;
+	height: 80vh;
+	background-position: center;
+	background-image: url(https://images.pexels.com/photos/4551102/pexels-photo-4551102.jpeg?auto=compress&cs=tinysrgb&w=600);
+	background-repeat: no-repeat;
+	border-radius: 30px;
+	background-size: cover;
+}
+#txet {
+	display: flex;
+	font-family:  'IBM Plex Sans', sans-serif;
+}
+.text_1 {
+	margin-right:77px ;
+}
+.abc {
+	margin-top: 20px;
+	 margin-left:  33%;
+	  font-size: 26px;
+}
+.button_hub {
+	display: flex;
+	width: 39%;
+	height: 40px;
+ 	margin-left:  33%;
+}
